@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="./script.js" defer></script>
+
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> <p title="Подвал УЦЦ" class="name">The Basement of the Amazing Digital Circus</p> </header>
+    <div class="polosa"></div>
+
+            <main>  <div>   <button onclick="location.href=''" title="Информация про сайт канал и тд">Инфо</button>   <button onclick="location.href=''" title="Правила пишуться кровью">Правила</button>
+                            <button onclick="location.href=''" title="Хочешь помочь каналу/чату? тебе сюда">Работа</button>   <button onclick="location.href=''" title="Подай жалобу/апеляцию и/или тп при надобности">Суд</button> </div>
+                          </main>
+
+
+
+
+
+
+            <img id="myGif" src="./media/1000033114-unscreen.gif"/>
+
+<script>
+const gif = document.getElementById('myGif');
+const gifSrc = './media/1000033114-unscreen.gif';
+const stopSrc = './media/prozor.png'; // твоє прозоре фото
+
+function toggleGif() {
+  gif.src = gifSrc; // показуємо GIF
+  setTimeout(() => {
+    gif.src = stopSrc; // замінюємо на прозоре фото
+  }, 1950); // 1 секунда показу GIF
+}
+
+// Запускаємо одразу
+toggleGif();
+
+// Повторюємо циклічно кожні 3 секунди (1 + 2)
+setInterval(toggleGif, 3000);
+</script>
+</script>
+</body>
+</html>
