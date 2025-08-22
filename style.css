@@ -65,6 +65,7 @@ main {
             gap: 10px;               /* відстань між кнопками */
             width: 420px;            /* ширина блоку під 2 кнопки */
             justify-content: center; /* центрує кнопки всередині */
+            margin: 20px;
 
             button{
                 width: 200px;
