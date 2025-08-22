@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> <p title="Подвал УЦЦ" class="name">The Basement of the Amazing Digital Circus</p> </header>
+    <div class="polosa"></div>
+
+            <main>  
+              <p>
+                ⟨ Канал ⟩<br>
+Инфа Канал УЦЦ Подвал <br>
+Данный канал был создан 19.08.25 пользователем телеграм @fikys_is<br>
+Тематика канала «Удивительный Цифровой Цирк» на канале будут публиковаться арты, мемы, стикер-паки и тп контент по УЦЦ<br>
+<br>
+⟨ Сайт ⟩<br>
+Инфа про данный сайт<br>
+Создан он также @fikys_is и его задача это облегчение работы, пройдёмся лаконично по всем пунктам -<br>
+※ Инфа - Информация которая может интересовать пользователя.<br>
+※ Правила - Страница с правилами чата.<br>
+※ Работа - Страница на которой можно подать заявку для работы, будь то артоведом или модератором чата.<br>
+※ Суд - Лакомый кусочек любителей пожаловаться, но также можно подать и апелляцию на жалобу или решение модерации если вы считаете его не справедливым, почему название "Суд"? да потому что оно будит решаться отдельным человеком, а не модераторами.<br>
+※ Предложка - У тебя есть арт, мем или той или иной контент по УЦЦ который ты бы хотел запостить? можешь его отправить нам, но будьте внимательны к описанию и инструкциям.<br>
+              </p>
+            </main>
+
+
+<button onclick="location.href='../index.html'"> < Назад </button>
+
+
+            <img id="myGif" src="../media/1000033114-unscreen.gif"/>
+
+<script>
+const gif = document.getElementById('myGif');
+const gifSrc = '../media/1000033114-unscreen.gif';
+const stopSrc = '../media/prozor.png'; // твоє прозоре фото
+
+function toggleGif() {
+  gif.src = gifSrc; // показуємо GIF
+  setTimeout(() => {
+    gif.src = stopSrc; // замінюємо на прозоре фото
+  }, 1800); // 1 секунда показу GIF
+}
+
+// Запускаємо одразу
+toggleGif();
+
+// Повторюємо циклічно кожні 3 секунди (1 + 2)
+setInterval(toggleGif, 7000);
+</script>
+</body>
+</html>
