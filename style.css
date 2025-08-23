@@ -8,7 +8,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100dvh;
+    min-height: 100dvh;
 }
 
 body{
@@ -44,7 +44,7 @@ height: 70px;
 }
 
 img{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom:0;
     width: 60px;
