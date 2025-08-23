@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100dvh; /* ✅ фикс */
+}
+
+
+body{
+    background: #833AB4;
+    background: linear-gradient(121deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    
+}
+
+header{
+background-color: rgba(37, 37, 37, 0.562);
+width: 100%;
+height: 70px;
+
+.name{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Kalam';
+}
+
+@media (max-width: 600px) {
+    .name{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .name{
+        font-size: 15px;
+    }
+}
+}
+
+.polosa{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    position: fixed;
+    right: 0;
+    bottom:0;
+    width: 60px;
+}
+
+
+
+
+main {
+    
+p{
+max-width: 800px;
+color: white;
+margin: auto;
+padding: 20px;
+line-height: 1.6;
+}
+}
+
+
+
+
+button {
+  width: 100px; 
+  border-radius: 10px; 
+  font-size: 16px; 
+  position: fixed; /* 👈 меняем absolute на fixed */
+  bottom: 10px; 
+  left: 10px;
+}
